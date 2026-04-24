@@ -3,11 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Personal Page</title>
+  <title>Mr Key</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: linear-gradient(to bottom right, #f7efe5, #dce8f2);
+      color: #1f2933;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 80px auto;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #b45309;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I'm Mr Key</h1>
-  <p>This is my first personal webpage on GitHub.</p>
-  <p>I'm learning GitHub and coding step by step.</p>
+  <div class="container">
+    <h1>Hello, I'm Mr Key</h1>
+    <p>This is my first personal webpage on GitHub.</p>
+    <p>I'm learning <span class="highlight">GitHub</span> and coding step by step.</p>
+  </div>
 </body>
 </html>
